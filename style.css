@@ -1,0 +1,115 @@
+body{
+    background-color: #8fd6e1;
+    
+}
+hr{
+    border-style: none ;
+    border-top-style:dotted ;     
+    width: 60%;
+    border-width:2px;
+    border-color :rgb(255, 0, 157);
+}
+
+h1:hover{
+color: brown;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+we use classes to provide different styles to same tags used at different places.
+if a class is diary then to add style tu it use syntax--
+     .diary{
+         background-color:red;
+     }
+*/     
+.OWNER{ 
+    border-radius: 50px;
+} 
+
+/* ID is used for a specific element and is unique for a page.
+prefrence is given to ID first and then to class.
+if id is bed then syntax to add style is----
+     #bed{
+         background-colour:red;
+     }
+
+
+/* pseudo class is very imp*/
+h1{
+    color:green;
+    
+    font-family: 'Handlee', cursive;
+}
+
+img{position: relative;
+    left: 5px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+.name{
+    margin: 0 auto 0 auto;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom{
+    position: absolute;
+    left: 400px;
+}
+.top{
+      position: absolute;
+     left: 900px;
+     top: 200px;
+}
+.bottom-container{
+   background-color:#018bfe;
+}
+
+.skills{
+    position: relative;
+    text-align: left;
+}
+
+.skilli{
+    text-align: left;
+}
+.btn {
+    background: #1605ff;
+    background-image: -webkit-linear-gradient(top, #1605ff, #0afada);
+    background-image: -moz-linear-gradient(top, #1605ff, #0afada);
+    background-image: -ms-linear-gradient(top, #1605ff, #0afada);
+    background-image: -o-linear-gradient(top, #1605ff, #0afada);
+    background-image: linear-gradient(to bottom, #1605ff, #0afada);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ff00ee;
+    background-image: -webkit-linear-gradient(top, #ff00ee, #4613f0);
+    background-image: -moz-linear-gradient(top, #ff00ee, #4613f0);
+    background-image: -ms-linear-gradient(top, #ff00ee, #4613f0);
+    background-image: -o-linear-gradient(top, #ff00ee, #4613f0);
+    background-image: linear-gradient(to bottom, #ff00ee, #4613f0);
+    text-decoration: none;
+  }
+
+  a{
+      margin: 10px 20px;
+      text-decoration: none;
+  }
+  a:hover{
+      color: #eaf6f6;
+  }
+  
+
